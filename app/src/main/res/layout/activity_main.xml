@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#673AB7"
+        android:text="BMI CALCULATOR"
+        android:textAlignment="center"
+        android:layout_margin="30dp"
+
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/Weight"
+        android:textSize="30dp"
+        android:layout_margin="30dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter The Weight in (KG) :"
+
+        />
+
+    <EditText
+        android:id="@+id/height"
+        android:textSize="30dp"
+        android:layout_margin="30dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter The Height in (Meter) :" />
+
+    <Switch
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_margin="30dp"
+
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="30dp"
+
+
+        android:text="Calc" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
